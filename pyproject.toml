@@ -1,0 +1,27 @@
+[project]
+name = "utilities-util"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Anthony Diep",email = "antdiep14@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic (>=2.11.7,<3.0.0)",
+    "fastapi (>=0.116.1,<0.117.0)",
+    "google-api-python-client (>=2.179.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)",
+    "psycopg[binary] (>=3.1)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "asyncpg (>=0.30.0,<0.31.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)"
+]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
