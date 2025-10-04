@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# utilities-util
-=======
 # Utilities Util
 
 A FastAPI-based utility management system for tracking household bills and expenses, with Gmail integration for automated bill processing.
@@ -180,4 +177,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - FastAPI for the excellent web framework
 - Google APIs for Gmail integration
 - PostgreSQL for reliable data storage
->>>>>>> init
