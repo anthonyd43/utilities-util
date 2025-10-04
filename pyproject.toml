@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "utilities-util"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Diep <antdiep14@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "common", from = "src"},
+    {include = "api", from = "src"},
+    {include = "models", from = "src/common"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pydantic = "^2.11.7"
+fastapi = "^0.116.1"
+google-api-python-client = "^2.179.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.2"
+psycopg = {extras = ["binary"], version = "^3.1"}
+python-dotenv = "^1.0.0"  # Changed from "dotenv"
+psycopg2-binary = "^2.9.10"
+asyncpg = "^0.30.0"
+sqlalchemy = "^2.0.43"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
