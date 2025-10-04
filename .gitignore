@@ -91,3 +91,12 @@ ipython_config.py
 
 *.json
 .env
+src/common/database/scratch.py
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
