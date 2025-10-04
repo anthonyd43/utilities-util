@@ -21,6 +21,5 @@ if __name__ == "__main__":
     with engine.connect() as connection:
 
         result = connection.execute(text("SELECT 'Hello'"))
-
         for row in result:
             print(row)
